@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+<Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:id="@+id/toolbar"
+    android:title="@string/app_name"
+    android:titleTextColor="@android:color/white"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_below="@id/toolbar"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/ic_digital_map"
+    android:id="@+id/image"
+    android:layout_marginTop="30dp"
+
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/name"
+        android:layout_below="@id/image"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/data"
+        android:layout_below="@id/name"
+        android:id="@+id/text"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get More Information about COVID -19"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:onClick="getinfo"
+        android:paddingRight="10dp"
+        android:id="@+id/getinfobtn"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Help Centers"
+        android:id="@+id/helpcenters"
+        android:layout_below="@id/getinfobtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:onClick="helpcenters"
+        android:paddingRight="10dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/helpcenters"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEATHS"
+                    android:drawableTop="@android:color/holo_red_dark"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/button"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recover"
+                    android:drawableTop="@android:color/holo_green_light"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/btn2"
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admitted"
+                    android:drawableTop="@android:color/holo_orange_light"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/btn3"
+                    />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/helpcenters"
+                android:id="@+id/btn"
+                android:text="OPEN CORONA COUNTER"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:onClick="btn"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Corona Symptoms Checker"
+                android:id="@+id/testbtn"
+                android:layout_below="@id/btn"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="20dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:onClick="coronameter"
+
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

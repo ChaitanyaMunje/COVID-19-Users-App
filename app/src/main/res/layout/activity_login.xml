@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question1"
+            android:text="For Whom you are taking this test ?"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogrp1"
+            android:layout_below="@id/question1"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For Yourself"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q1radiobtn1"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parent"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q1radiobtn2"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spouse"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q1radiobtn3"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Child"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q1radiobtn4"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some One Else"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q1radiobtn5"
+                />
+        </RadioGroup>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="What is your gender ?"
+    android:id="@+id/gendertxt"
+    android:textSize="20dp"
+    android:textColor="@android:color/black"
+    android:layout_below="@id/radiogrp1"
+    android:layout_marginTop="10dp"
+    />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogroup2"
+            android:layout_below="@id/gendertxt"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q2radiobtn1"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q2radiobtn2"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q2radiobtn3"
+                />
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is your age ?"
+            android:id="@+id/agegroup"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/radiogroup2"
+            android:layout_marginTop="10dp"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogroup3"
+            android:layout_below="@id/agegroup"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Less than 12 years"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q3radiobtn1"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12-50 years"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q3radiobtn2"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="51-60 years"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q3radiobtn3"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Above 60 years"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q3radiobtn4"
+                />
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You or your family visited this countries in last 14 days ?"
+            android:id="@+id/health"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/radiogroup3"
+            android:layout_marginTop="10dp"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogroup4"
+            android:layout_below="@id/health"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="China"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q4radiobtn1"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italy"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q4radiobtn2"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spain"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q4radiobtn3"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iran"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q4radiobtn4"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Europe"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q4radiobtn5"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of the above"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q4radiobtn6"
+                />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you or someone in your family come in close contact with COVID-19 patient in last 14 days ?"
+            android:id="@+id/conatct"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/radiogroup4"
+            android:layout_marginTop="10dp"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogroup5"
+            android:layout_below="@id/conatct"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q5radiobtn1"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q5radiobtn2"
+                />
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you have following symptoms such as fever, cough, cold, headache, sore throat, shortness of breath ? "
+            android:id="@+id/symptoms"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/radiogroup5"
+            android:layout_marginTop="10dp"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogroup6"
+            android:layout_below="@id/symptoms"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q6radiobtn1"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:checked="false"
+                android:textSize="20dp"
+                android:id="@+id/q6radiobtn2"
+                />
+
+
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Check your Result"
+            android:id="@+id/resultbtn"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="10dp"
+            android:onClick="clickresult"
+            android:paddingRight="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/radiogroup6"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

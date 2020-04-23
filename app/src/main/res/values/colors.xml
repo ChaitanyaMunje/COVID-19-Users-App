@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">@android:color/black</color>
+    <color name="colorHint">@android:color/black</color>
+
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+
+
+
+
+    </array>
+
+
+
+    <color name="colorTitles">#284452</color>
+    <color name="colorBlueDark">#006381</color>
+    <color name="colorBlueLight">#f3f7f9</color>
+    <color name="colorPurpleDark">#600090</color>
+    <color name="colorPurpleLight">#F0E3F7</color>
+    <color name="colorNewDark">#00AC9A</color>
+    <color name="colorGreenDark">#548700</color>
+    <color name="colorGreenLight">#e5f6ca</color>
+    <color name="colorRedDark">#9a0000</color>
+    <color name="colorRedLight">#f6c8c8</color>
+    <color name="colorBackEdge">#f1f5f6</color>
+    <color name="colorBackMiddle">#fbfbfb</color>
+    <color name="colorHighlights">#e16915</color>
+    <color name="colorStrokeDark">#d7dddf</color>
+    <color name="colorStrokeLight">#e9eff2</color>
+    <color name="colorStrokeSearch">#b9bfc1</color>
+    <color name="colorShadow">#878787</color>
+</resources>

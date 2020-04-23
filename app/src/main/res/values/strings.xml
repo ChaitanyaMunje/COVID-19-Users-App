@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">COVID-19 Tracker</string>
+    <string name="test_email">test@test.com</string>
+    <string name="tracking_enabled_notif">Stay Safe, Stay Home.</string>
+    <string name="test_password">testpassword</string>
+    <string name="firebase_path">location</string>
+    <string name="notification_text">Helloe </string>
+
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="data">Stay Safe, Stay Home. Your Location is being Tracked.  </string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <string name="assistant_id">846db881-04b3-4e04-aa15-6feb79807291</string>
+
+    <string name="assistant_apikey">K8cWwtmW22BzpJxtz12DETIyz9WoimaVqJXsPWb4KHXE</string>
+    <string name="assistant_url">https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/4ff26774-a218-47ad-b54a-d52fa7ffcbcb</string>
+
+
+    <string name="TTS_apikey">1FO0Xf0FbJRuVSVxkk1dvpOl9OomFFCwJDsE6OEiZvoW</string>
+    <string name="TTS_url">https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/b2b9f892-06f2-42c0-a493-db82a338368f</string>
+
+
+    <string name="STT_apikey">ERkERTqvazZABCVMDUutntsTDI0vdhxevRJKpJWH3rKG</string>
+    <string name="STT_url">https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/06200146-2b3c-4c06-980e-46b3300866e5</string>
+
+
+</resources>
